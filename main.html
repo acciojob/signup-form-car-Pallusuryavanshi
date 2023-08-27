@@ -14,10 +14,10 @@
 		<label for="email">Email:</label>
 		<input type="email" id="email" placeholder="Email"required/><br><br>
 		<label for="gender">Gender:</label><br>
-	    <input type="radio" id="gender_m"required/>Male<br>
-		<input type="radio" id="gender_f"required/>Female<br><br>
+	    <input type="radio" name="gender" id="gender_m"required/>Male<br>
+		<input type="radio" name="gender" id="gender_f"required/>Female<br><br>
 		<label for="cars">Car Brands:</label>
-		<select id="car"aria-required>    
+		<select id="car" aria-required>    
            <option value="placeholder">--plese choose an option--</option>    
            <option value="Kia">Kia</option>    
            <option value="Maruti">Maruti-car</option>    
@@ -27,9 +27,10 @@
 		<label for="dob">DOB:</label>
 		<input type="date" id="dob" required/><br><br>
 		<label for="tel">Phone Number:</label>
-		<input type="tel" id="name" placeholder="xxx-xxx-xxx"required/><br><br>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxx"required/><br><br>
 		<label for="password">Password:</label>
 		<input type="password" id="password" placeholder="Password"required/><br><br>
+		<label for="tos">TOS:</label>
 		<input type="checkbox" id="tos"required>I agree to the TOS<br><br>
 		<button type="submit">Submit</button> 
 	</form>
